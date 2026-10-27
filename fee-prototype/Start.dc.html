@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Transaction fee experiment, start</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&amp;family=Caveat+Brush&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a:hover{text-decoration:underline}
+</style>
+</helmet>
+<div style="min-height: 900px; box-sizing: border-box; padding: 40px 20px 60px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #333333; background-color: #18ccdc; background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.14) 0px, rgba(255,255,255,0.14) 3px, transparent 3px, transparent 10px)">
+<div style="max-width: 900px; margin: 0 auto; background: #ffffff; border-radius: 20px; padding: 36px 40px 40px; box-sizing: border-box">
+
+<h1 style="margin: 0; font-family: 'Caveat Brush', cursive; font-weight: 400; font-size: 44px; line-height: 48px; color: #ff6b00">Transaction fee experiment · Prototype</h1>
+<p style="margin: 10px 0 0; font-size: 16px; line-height: 24px; font-weight: 300">Clickable prototype of the donation page with the different ways to ask donors to cover the card processing fee. Pick an option and a screen size. The copy and the amounts are proposals for review.</p>
+
+<h2 style="margin: 32px 0 4px; font-size: 20px; line-height: 26px; font-weight: 700; color: #08497b">Option 1 · Fee next to the payment method</h2>
+<p style="margin: 0 0 14px; font-size: 14px; line-height: 21px; font-weight: 300">The fee checkbox sits right below the payment options. What changes is how Donation Details shows it.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<div style="border: 2px solid #e3e8eb; border-radius: 16px; padding: 18px 20px">
+<div style="font-size: 17px; font-weight: 700">Option 1A</div>
+<p style="margin: 4px 0 12px; font-size: 14px; line-height: 21px; font-weight: 300">Donation Details shows two lines: one for school support and one for the processing fee.</p>
+<a href="option-1a-desktop.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px; margin-right: 18px">Desktop →</a>
+<a href="option-1a-mobile.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px">Mobile →</a>
+</div>
+<div style="border: 2px solid #e3e8eb; border-radius: 16px; padding: 18px 20px">
+<div style="font-size: 17px; font-weight: 700">Option 1B</div>
+<p style="margin: 4px 0 12px; font-size: 14px; line-height: 21px; font-weight: 300">Donation Details shows one combined line for both.</p>
+<a href="option-1b-desktop.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px; margin-right: 18px">Desktop →</a>
+<a href="option-1b-mobile.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px">Mobile →</a>
+</div>
+</div>
+
+<h2 style="margin: 32px 0 4px; font-size: 20px; line-height: 26px; font-weight: 700; color: #08497b">Option 2 · Fee inside Donation Details</h2>
+<p style="margin: 0 0 14px; font-size: 14px; line-height: 21px; font-weight: 300">The fee shows up as its own box inside Donation Details. Three variants of how that box looks.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+<div style="border: 2px solid #e3e8eb; border-radius: 16px; padding: 18px 20px">
+<div style="font-size: 17px; font-weight: 700">Option 2A</div>
+<p style="margin: 4px 0 12px; font-size: 14px; line-height: 21px; font-weight: 300">Variant A of the fee box.</p>
+<a href="option-2a-desktop.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px; margin-right: 18px">Desktop →</a>
+<a href="option-2a-mobile.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px">Mobile →</a>
+</div>
+<div style="border: 2px solid #e3e8eb; border-radius: 16px; padding: 18px 20px">
+<div style="font-size: 17px; font-weight: 700">Option 2B</div>
+<p style="margin: 4px 0 12px; font-size: 14px; line-height: 21px; font-weight: 300">Variant B of the fee box.</p>
+<a href="option-2b-desktop.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px; margin-right: 18px">Desktop →</a>
+<a href="option-2b-mobile.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px">Mobile →</a>
+</div>
+<div style="border: 2px solid #e3e8eb; border-radius: 16px; padding: 18px 20px">
+<div style="font-size: 17px; font-weight: 700">Option 2C</div>
+<p style="margin: 4px 0 12px; font-size: 14px; line-height: 21px; font-weight: 300">Variant C of the fee box.</p>
+<a href="option-2c-desktop.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px; margin-right: 18px">Desktop →</a>
+<a href="option-2c-mobile.dc.html" style="color: #2579a9; font-weight: 600; font-size: 15px">Mobile →</a>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</x-dc>
+</body>
+</html>
